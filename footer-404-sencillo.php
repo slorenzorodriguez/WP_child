@@ -39,7 +39,7 @@
 					<?php
 				endif;
 
-				print("esto es el footer complejo")
+				print("esto es el footer sencillo")
 				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Nuevo
+ * Template Name: Sencillo
  * Template Post Type: post, page
  * 
  * @package WordPress
@@ -33,4 +33,4 @@ get_header(); ?>
 </div><!-- .wrap -->
 
 <?php
-get_footer(404);
+get_footer(404-sencillo);
