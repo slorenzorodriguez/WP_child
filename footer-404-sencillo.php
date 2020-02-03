@@ -20,7 +20,7 @@
 			<div class="wrap">
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
-
+				get_sidebar( 'primary' );
 				if ( has_nav_menu( 'social' ) ) :
 					?>
 					<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentyseventeen' ); ?>">
@@ -35,6 +35,7 @@
 								)
 							);
 						?>
+						<
 					</nav><!-- .social-navigation -->
 					<?php
 				endif;
@@ -46,6 +47,6 @@
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
-
+</div>
 </body>
 </html>
